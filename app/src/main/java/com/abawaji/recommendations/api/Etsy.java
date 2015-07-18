@@ -23,7 +23,7 @@ public class Etsy {
 
     private static Api getApi() {
         return new RestAdapter.Builder()
-                .setEndpoint("http://openapi.etsy.com/v2")
+                .setEndpoint("https://openapi.etsy.com/v2")
                 .setRequestInterceptor(getInterceptor())
                 .build()
                 .create(Api.class);

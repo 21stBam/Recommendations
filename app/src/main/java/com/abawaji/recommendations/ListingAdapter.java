@@ -1,6 +1,5 @@
 package com.abawaji.recommendations;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
@@ -31,6 +30,7 @@ implements Callback<ActiveListings> , GoogleServicesHelper.GoogleServicesListene
 
     public static final int REQUEST_CODE_PLUS_ONE = 10;
     public static final int REQUEST_CODE_SHARE = 11;
+    private static final String TAG = ListingAdapter.class.getSimpleName();
 
     private MainActivity activity;
     private LayoutInflater inflater;
