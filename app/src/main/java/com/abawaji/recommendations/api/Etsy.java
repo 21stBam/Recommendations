@@ -10,7 +10,7 @@ import retrofit.RestAdapter;
  * Created by iObsa on 5/27/15.
  */
 public class Etsy {
-    private static final String API_KEY = "zkto25qpkwphei52i746eu6j";
+    private static final String API_KEY = "ETSY API HERE";
 
     private static RequestInterceptor getInterceptor() {
         return new RequestInterceptor() {

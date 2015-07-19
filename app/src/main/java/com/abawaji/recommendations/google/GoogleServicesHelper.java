@@ -37,7 +37,7 @@ public class GoogleServicesHelper implements GoogleApiClient.ConnectionCallbacks
                 .addOnConnectionFailedListener(this)
                 .addApi(Plus.API,
                         Plus.PlusOptions.builder()
-                            .setServerClientId("348330152253-6dnqrq1cr68b3inmjjjttm8l19oecusk.apps.googleusercontent.com")
+                            .setServerClientId("GOOGLE CLIENT ID HERE")
                             .build())
                 .build();
     }
